@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./src/imagens/icone.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@500&family=Fira+Code:wght@300;400;500;600;700&family=Kanit:ital,wght@0,100;0,300;0,400;1,200&family=Poppins:wght@100;300;500&family=Prompt:ital,wght@0,200;0,300;0,500;1,100;1,400&family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+
+    <link rel="stylesheet" href="./src/css/estilos.css">
+
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+    <title>Dragon Ball Super - O Filme</title>
+</head>
+<body>
+
+    <div class="fundo-video">
+        <video class="video" autoplay loop muted>
+            <source src="./src/video/video-dbs.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <header class="cabecalho">
+        <a>
+            <img class="logo" src="./src/imagens/esfera.png" alt="Esfera do Dragão">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Detalhes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="informacoes">
+            <img class="imagem-titulo" src="./src/imagens/logo.png" alt="imagem do título do anime">
+            <p class="descricao">Dragon Ball Super (ドラゴンボール超スーパー Doragon Bōru Sūpā) é uma série de anime criada por Akira Toriyama e produzida pela Toei Animation, que começou a ser exibida em 5 de julho de 2015 e teve seu último episódio exibido em 25 de março de 2018 com um total de 131 episódios. Mais tarde ganhou dois filmes.</p>
+            <button class="botao-trailer">Veja o trailer</button>
+        </div>
+        <img class="gohan" src="./src/imagens/heroes.png" width="48%" alt="dragon ball super">
+
+        <div class="modal aberto">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/TeM7KOnORhw" title="Vídeo DBS" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
